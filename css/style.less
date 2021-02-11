@@ -1,0 +1,518 @@
+@font-face {
+	font-family: 'Gotham Pro Medium';
+	src: url('../fonts/subset-GothamPro-Medium.eot');
+	src: url('../fonts/subset-GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/subset-GothamPro-Medium.woff2') format('woff2'),
+		url('../fonts/subset-GothamPro-Medium.woff') format('woff'),
+		url('../fonts/subset-GothamPro-Medium.ttf') format('truetype'),
+		url('../fonts/subset-GothamPro-Medium.svg#GothamPro-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro Bold';
+	src: url('../fonts/subset-GothamPro-Bold.eot');
+	src: url('../fonts/subset-GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/subset-GothamPro-Bold.woff2') format('woff2'),
+		url('../fonts/subset-GothamPro-Bold.woff') format('woff'),
+		url('../fonts/subset-GothamPro-Bold.ttf') format('truetype'),
+		url('../fonts/subset-GothamPro-Bold.svg#GothamPro-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro Black';
+	src: url('../fonts/subset-GothamPro-Black.eot');
+	src: url('../fonts/subset-GothamPro-Black.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/subset-GothamPro-Black.woff2') format('woff2'),
+		url('../fonts/subset-GothamPro-Black.woff') format('woff'),
+		url('../fonts/subset-GothamPro-Black.ttf') format('truetype'),
+		url('../fonts/subset-GothamPro-Black.svg#GothamPro-Black') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@main-bg: #dedede;
+@white: #fff;
+@red:#d25b55;
+@fonts-col:#515151;
+@black:#202020;
+@h-col:#4c4c4c;
+@h3-col:#9fa2a5;
+@card-bg:#595959;
+@bor-col:#a1a1a1;
+@footer-bg:#f9f9f9;
+@sec-2-bg:#f4f4f4;
+
+a, a:hover, a:active, a:visited{
+	text-decoration:none;
+}
+
+h2{
+	font-family:'Gotham Pro Black', sans-serif;
+	font-size: 80px;
+	line-height:1.2;
+	text-transform:uppercase;
+	color:@white
+
+
+}
+
+
+.btn {
+	display:inline-block;
+	width:172px;
+	height:52px;
+	text-align:center;
+	border-radius: 26px;
+	color:@white;
+	font-family:'Gotham Pro Bold', sans-serif;
+	font-size: 13px;
+	letter-spacing:3px;
+	text-transform:uppercase;
+	padding-top:19px;
+	vertical-align: middle;
+	&:hover{
+		color:@white;
+	}
+
+
+
+}
+
+/*первый экран*/
+
+header{
+	background-color: @main-bg;
+	text-align:center;
+	h1{
+		font-family:'Gotham Pro Black', sans-serif;
+		font-size: 90px;
+		color:@white;
+		text-transform: uppercase;
+		text-align:center;
+		margin-top:160px;
+		line-height: 1.2;
+		margin-bottom: 25px;
+	}
+	.desc{
+		color:@white;
+		font-size: 14px;
+		font-family:'Gotham Pro Medium', sans-serif;
+		text-transform:uppercase;
+		letter-spacing: 3px;
+		margin:0;
+		padding: 0;
+		margin-bottom:27px;
+
+	}
+}
+.logo{
+	width: 46px;
+	height: 46px;
+	margin-top: 48px;
+	margin-left: 48px;
+}
+.cart{
+	float: right;
+	width: 46px;
+	height: 46px;
+	margin-top: 48px;
+	margin-right: 48px;
+
+}
+.menu{
+	display: block;
+	text-align: center;
+	margin-top:66px;
+	padding:0;
+	li{
+		display:inline-block;
+		text-align:center;
+		margin: 0 15px;
+		padding:0;
+		a{
+			font-size: 14px;
+			color:@white;
+			font-family:'Gotham Pro Medium', sans-serif;
+			letter-spacing: 4px;
+			position: relative;
+
+			&::after{
+				content"";
+				display:block;
+				width: 20px;
+				height: 3px;
+				background-color: @red-btn;
+				position: absolute;
+
+			}
+
+			
+		}
+
+	
+	&:hover{
+			a{
+				color:@red-btn;
+				&::after{
+			width:100%;
+			}
+		}
+	}
+}
+}
+
+
+
+.btn-r{
+	background-color:@red;
+
+}
+.btn-w{
+	margin-left: 20px;
+	padding-top:16px;
+	border: 3px solid @white;
+}
+
+.pencilhead{
+	padding-top:10px;
+	display:block;
+	max-width: 100%;
+	padding-bottom: 65px;
+	margin:auto;
+}
+/*конец первого экрана*/
+
+/*второй экран*/
+.sec-2{
+	margin:0;
+	padding:0;
+	background: @sec-2-bg url('../images/Pencils-bg2.png') 20% 100% no-repeat fixed;
+	
+
+	}
+
+.sec-2-con{
+
+	font-size: 16px;
+	font-family:'Gotham Pro Medium', sans-serif;
+	color:@fonts-col;
+	margin-top: 174px;
+	margin-bottom:139px;
+
+
+
+
+}
+
+
+/*конец второго экрана*/
+
+/* третий экран*/
+
+.sec-3{
+	margim:0;
+	padding:0;
+	position: relative;
+	text-align:center;
+	background-color:#dedede;
+	color:@white;
+	margin-bottom:100px;
+
+	h2{
+		padding-top:30px;
+	}
+	h3{
+		font-size: 24px;
+		font-family:'Gotham Pro Bold', sans-serif;
+		text-transform:uppercase;
+		letter-spacing:2px;
+		padding-top: 50px;
+
+	}
+	p{
+		font-size: 21px;
+		font-family:'Gotham Pro Medium', sans-serif;
+		padding-bottom:100px;
+
+	}
+
+}
+
+.col1{
+	background:  url('../images/Shape 1 (1).png') 50% 50% no-repeat ;
+		
+}
+.col2{
+	background:  url('../images/Forma 1.png') 50% 70% no-repeat;
+}
+
+.col3{
+
+	background:  url('../images/Shape 1.png') 50% 40% no-repeat;
+}
+.bomb{
+	position: absolute;
+	right:0;
+	top:0;
+	
+
+}
+
+/*конец третего экрана*/
+
+/*четвертый экран*/
+.sec-4{
+	position: relative;
+	padding-bottom:70px;
+	text-align: center;
+	padding-bottom: 70px;
+	.img4{
+		position:absolute;
+		top:-160px;
+		left:80px;
+	}
+
+	h2{
+		color:@h-col;
+		margin-bottom:0;
+		padding-bottom:0;
+	}
+	.h3{
+		margin-top:0;
+		padding-top:0;
+		line-height:1;
+		color:@h3-col;
+		font-family:'Gotham Pro Medium', sans-serif;
+		font-size: 16px;
+		padding-bottom:50px;
+
+	
+	}
+
+	
+	h3{
+		color:@black;
+		letter-spacing: 4px;
+		font-size: 14px;
+		font-family:'Gotham Pro Black', sans-serif;
+		text-transform: uppercase;
+
+
+	}
+.card {
+	border:1px solid #fff;
+	border-radius: 5px;
+	margin-top:50px;
+
+	p{
+	color:@h3-col;
+	font-family:'Gotham Pro Medium', sans-serif;
+	font-size: 14px;
+}
+
+.img-wrap{
+	height:260px;
+	position: relative;
+	img{
+		position: absolute;
+		right:15px;
+		bottom: 0;
+	}
+
+}
+
+
+	.price{
+		font-family: 'Arvo', serif;
+		font-size: 60px;
+		color:@black;
+		margin: 0;
+		padding: 0;
+		padding-bottom: 24px;
+
+			}
+
+		&:hover{
+			border:1px solid #a1a1a1;
+			background-color:@card-bg;
+			.btn-card {
+						background-color:@red;
+
+			}
+
+
+		}
+	.btn-card{
+		margin-bottom:37px;
+		/*height:47px;
+		width:161px;
+		padding-top: 16px;*/
+
+	}
+
+}
+
+
+}
+
+/*конец четвертого экрана*/
+
+/*начало пятого экрана*/
+.sec-5{
+	text-align: center;
+	position: relative;
+	h2{
+		color:@h-col;
+		text-transform:none;
+		font-size: 60px;
+		line-height:1;
+		position: relative;
+		z-index: 300;
+		margin-bottom:100px;
+	}
+}
+.paper{
+	position: absolute;
+	display:block;
+	margin:auto;
+	padding-left: 50px;
+	top:50px;
+}
+.form1{
+	position: relative;
+	text-align: left;
+	margin:auto;
+	margin-bottom:-25px;
+	z-index: 3001;
+	display:block;
+	height:49px;
+	width: 313px;
+	background:  url(../images/strela.png) 0% 0% no-repeat;
+	.email{
+		margin: 0;
+		padding: 0;
+		margin-top:-2px;
+		height:40px;
+		width:230px;
+		margin-left:30px;
+		border:none;
+		padding-left:20px;
+		font-size: 16px;
+
+	}
+	.btn-form{
+		background-color:@red;
+		border:none;
+		height:41px;
+		width:43px;
+		margin-top:4px;
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+		color:@white;
+		&:hover{
+			background-color:red;
+		}
+
+
+	}
+}
+
+
+
+
+/*конец пятого экрана*/
+
+
+
+
+
+/*конец футера экрана*/
+footer {
+	background-color:@footer-bg;
+
+	.row{
+		margin-top:316px;
+		
+	}
+
+	.social-icon{
+		text-align:right;
+		a{
+			color:@h3-col;
+			&:hover{
+
+				color:@red;
+
+			}
+
+
+		}
+		/*.instagramm:hover{
+				color:red;
+			}*/
+
+	}
+
+.bank{
+	text-align:right;
+	margin-left: ;
+	margin-top: 20px;
+	margin-bottom: 45px;
+	a{
+		margin-left: 5px;
+	}
+}
+.coppy{
+	padding-top: 40px;
+}
+
+
+}
+
+/*конец футера экрана*/
+@media (min-width: 1200px) {
+
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.logo{
+		margin-left: 0;
+	}
+	.cart{
+		margin-right: 0;
+	}
+	.menu li{
+		margin:0 10px;
+		a{
+			letter-spacing:1px;
+		}
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	.menu li{
+		margin:0 5px;
+		a{
+			letter-spacing:0;
+			font-size: 12px;
+		}
+	}
+
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+
+}
