@@ -47,7 +47,7 @@
 @sec-2-bg:#f4f4f4;
 
 a, a:hover, a:active, a:visited{
-	text-decoration:none;
+	text-decoration: none;
 }
 
 h2{
@@ -76,9 +76,11 @@ h2{
 	vertical-align: middle;
 	&:hover{
 		color:@white;
+		background-color: @red-btn;
+		box-shadow: 0px 3px 5px rgba(169, 37, 42, 0.5);
+
+
 	}
-
-
 
 }
 
@@ -133,20 +135,25 @@ header{
 		text-align:center;
 		margin: 0 15px;
 		padding:0;
+
 		a{
 			font-size: 14px;
-			color:@white;
+			color: @white;
 			font-family:'Gotham Pro Medium', sans-serif;
 			letter-spacing: 4px;
 			position: relative;
+			
 
-			&::after{
+			&::after {
 				content"";
-				display:block;
-				width: 20px;
-				height: 3px;
-				background-color: @red-btn;
 				position: absolute;
+				display:block;
+				width: 0px;
+				left: -2px;
+				height: 3px;
+				top: 130%;
+				background-color: @red-btn;
+				transition: all 0.5s;
 
 			}
 
@@ -159,6 +166,7 @@ header{
 				color:@red-btn;
 				&::after{
 			width:100%;
+			
 			}
 		}
 	}
@@ -175,6 +183,15 @@ header{
 	margin-left: 20px;
 	padding-top:16px;
 	border: 3px solid @white;
+	&:hover {
+		background-color: #fff;
+		color: @fonts-col;
+		border-color: @fonts-col;
+		box-shadow: 0px 3px 5px rgba(81, 81, 81, 0.5);
+
+
+
+	}
 }
 
 .pencilhead{
@@ -214,7 +231,7 @@ header{
 /* третий экран*/
 
 .sec-3{
-	margim:0;
+	margin:0;
 	padding:0;
 	position: relative;
 	text-align:center;
@@ -459,7 +476,7 @@ footer {
 
 .bank{
 	text-align:right;
-	margin-left: ;
+	margin-left: 10px;
 	margin-top: 20px;
 	margin-bottom: 45px;
 	a{
