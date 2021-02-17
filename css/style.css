@@ -1,21 +1,36 @@
 @font-face {
-  font-family: 'Gotham Pro Medium';
-  src: url('../fonts/subset-GothamPro-Medium.eot');
-  src: url('../fonts/subset-GothamPro-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/subset-GothamPro-Medium.woff2') format('woff2'), url('../fonts/subset-GothamPro-Medium.woff') format('woff'), url('../fonts/subset-GothamPro-Medium.ttf') format('truetype'), url('../fonts/subset-GothamPro-Medium.svg#GothamPro-Medium') format('svg');
+  font-family: "Gotham Pro Medium";
+  src: url("../fonts/subset-GothamPro-Medium.eot");
+  src: url("../fonts/subset-GothamPro-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/subset-GothamPro-Medium.woff2") format("woff2"),
+    url("../fonts/subset-GothamPro-Medium.woff") format("woff"),
+    url("../fonts/subset-GothamPro-Medium.ttf") format("truetype"),
+    url("../fonts/subset-GothamPro-Medium.svg#GothamPro-Medium") format("svg");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Gotham Pro Bold';
-  src: url('../fonts/subset-GothamPro-Bold.eot');
-  src: url('../fonts/subset-GothamPro-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/subset-GothamPro-Bold.woff2') format('woff2'), url('../fonts/subset-GothamPro-Bold.woff') format('woff'), url('../fonts/subset-GothamPro-Bold.ttf') format('truetype'), url('../fonts/subset-GothamPro-Bold.svg#GothamPro-Bold') format('svg');
+  font-family: "Gotham Pro Bold";
+  src: url("../fonts/subset-GothamPro-Bold.eot");
+  src: url("../fonts/subset-GothamPro-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/subset-GothamPro-Bold.woff2") format("woff2"),
+    url("../fonts/subset-GothamPro-Bold.woff") format("woff"),
+    url("../fonts/subset-GothamPro-Bold.ttf") format("truetype"),
+    url("../fonts/subset-GothamPro-Bold.svg#GothamPro-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Gotham Pro Black';
-  src: url('../fonts/subset-GothamPro-Black.eot');
-  src: url('../fonts/subset-GothamPro-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/subset-GothamPro-Black.woff2') format('woff2'), url('../fonts/subset-GothamPro-Black.woff') format('woff'), url('../fonts/subset-GothamPro-Black.ttf') format('truetype'), url('../fonts/subset-GothamPro-Black.svg#GothamPro-Black') format('svg');
+  font-family: "Gotham Pro Black";
+  src: url("../fonts/subset-GothamPro-Black.eot");
+  src: url("../fonts/subset-GothamPro-Black.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/subset-GothamPro-Black.woff2") format("woff2"),
+    url("../fonts/subset-GothamPro-Black.woff") format("woff"),
+    url("../fonts/subset-GothamPro-Black.ttf") format("truetype"),
+    url("../fonts/subset-GothamPro-Black.svg#GothamPro-Black") format("svg");
   font-weight: 900;
   font-style: normal;
 }
@@ -26,7 +41,7 @@ a:visited {
   text-decoration: none;
 }
 h2 {
-  font-family: 'Gotham Pro Black', sans-serif;
+  font-family: "Gotham Pro Black", sans-serif;
   font-size: 80px;
   line-height: 1.2;
   text-transform: uppercase;
@@ -39,7 +54,7 @@ h2 {
   text-align: center;
   border-radius: 26px;
   color: #ffffff;
-  font-family: 'Gotham Pro Bold', sans-serif;
+  font-family: "Gotham Pro Bold", sans-serif;
   font-size: 13px;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -55,7 +70,7 @@ header {
   text-align: center;
 }
 header h1 {
-  font-family: 'Gotham Pro Black', sans-serif;
+  font-family: "Gotham Pro Black", sans-serif;
   font-size: 90px;
   color: #ffffff;
   text-transform: uppercase;
@@ -67,7 +82,7 @@ header h1 {
 header .desc {
   color: #ffffff;
   font-size: 14px;
-  font-family: 'Gotham Pro Medium', sans-serif;
+  font-family: "Gotham Pro Medium", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   margin: 0;
@@ -102,7 +117,7 @@ header .desc {
 .menu li a {
   font-size: 14px;
   color: #ffffff;
-  font-family: 'Gotham Pro Medium', sans-serif;
+  font-family: "Gotham Pro Medium", sans-serif;
   letter-spacing: 4px;
 }
 .btn-r {
@@ -125,11 +140,11 @@ header .desc {
 .sec-2 {
   margin: 0;
   padding: 0;
-  background: #f4f4f4 url('../images/Pencils-bg2.png') 20% 100% no-repeat fixed;
+  background: #f4f4f4 url("../images/Pencils-bg2.png") 20% 100% no-repeat fixed;
 }
 .sec-2-con {
   font-size: 16px;
-  font-family: 'Gotham Pro Medium', sans-serif;
+  font-family: "Gotham Pro Medium", sans-serif;
   color: #515151;
   margin-top: 174px;
   margin-bottom: 139px;
@@ -150,24 +165,24 @@ header .desc {
 }
 .sec-3 h3 {
   font-size: 24px;
-  font-family: 'Gotham Pro Bold', sans-serif;
+  font-family: "Gotham Pro Bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   padding-top: 50px;
 }
 .sec-3 p {
   font-size: 21px;
-  font-family: 'Gotham Pro Medium', sans-serif;
+  font-family: "Gotham Pro Medium", sans-serif;
   padding-bottom: 100px;
 }
 .col1 {
-  background: url('../images/Shape 1 (1).png') 50% 50% no-repeat;
+  background: url("../images/Shape 1 (1).png") 50% 50% no-repeat;
 }
 .col2 {
-  background: url('../images/Forma 1.png') 50% 70% no-repeat;
+  background: url("../images/Forma 1.png") 50% 70% no-repeat;
 }
 .col3 {
-  background: url('../images/Shape 1.png') 50% 40% no-repeat;
+  background: url("../images/Shape 1.png") 50% 40% no-repeat;
 }
 .bomb {
   position: absolute;
@@ -196,7 +211,7 @@ header .desc {
   padding-top: 0;
   line-height: 1;
   color: #9fa2a5;
-  font-family: 'Gotham Pro Medium', sans-serif;
+  font-family: "Gotham Pro Medium", sans-serif;
   font-size: 16px;
   padding-bottom: 50px;
 }
@@ -204,7 +219,7 @@ header .desc {
   color: #202020;
   letter-spacing: 4px;
   font-size: 14px;
-  font-family: 'Gotham Pro Black', sans-serif;
+  font-family: "Gotham Pro Black", sans-serif;
   text-transform: uppercase;
 }
 .sec-4 .card {
@@ -214,7 +229,7 @@ header .desc {
 }
 .sec-4 .card p {
   color: #9fa2a5;
-  font-family: 'Gotham Pro Medium', sans-serif;
+  font-family: "Gotham Pro Medium", sans-serif;
   font-size: 14px;
 }
 .sec-4 .card .img-wrap {
@@ -227,7 +242,7 @@ header .desc {
   bottom: 0;
 }
 .sec-4 .card .price {
-  font-family: 'Arvo', serif;
+  font-family: "Arvo", serif;
   font-size: 60px;
   color: #202020;
   margin: 0;
@@ -243,9 +258,9 @@ header .desc {
 }
 .sec-4 .card .btn-card {
   margin-bottom: 37px;
-  /*height:47px;
-		width:161px;
-		padding-top: 16px;*/
+  height: 47px;
+  width: 161px;
+  padding-top: 16px;
 }
 /*конец четвертого экрана*/
 /*начало пятого экрана*/
